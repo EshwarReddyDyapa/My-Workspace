@@ -1,0 +1,21 @@
+#checkBox1
+{
+    color: aqua;
+    /* visibility: hidden; */
+}
+
+#button1
+{
+    color: red;
+}
+
+.list
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+.listHuge
+{
+    font-size: 15rem;
+    color: red;
+}

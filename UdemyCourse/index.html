@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Including the Bootstrap to the html -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <title>Javascript Practise</title>
+</head>
+<body style=" background-color: #B8E8FC;">
+    <div class="mx-auto" style="width: 700px;">
+    <h1 class="mx-auto mt-3">Javascript practice web page</h1> </div>
+    <button type="button" onclick="testLengthFunction()">Click to test Length and Slice property</button> <br> 
+    <div class="py-3">
+    </div>
+    <button onclick="characterCaseTestFunction()">Click for Character Casing property</button>
+
+    <div class="py-3">
+    </div>
+    <button onclick="getMilk(11)">getMilk Function</button>
+
+    <div class="py-3">
+    </div>
+    <button onclick="getMilkWithReturn(50)">getMilk Function with change</button>
+
+    <div class="py-3">
+    </div>
+    <button onclick="BMICalculator(65, 1.8)">Calculate BMI</button>
+
+    <div class="py-3">
+        <label for="test1" type="textbox">Test1</label>
+        <input type="text" id="test1" name="test1">
+
+        <label for="test2" type="textbox">Test2</label>
+        <input type="text" id="test2" name="test2">
+
+        <label for="dropdown">Operator</label>
+        <select id="dropdown" name="dropdown">
+            <option value="add">Add</option>
+            <option value="sub">Subtract</option>
+            <option value="mul">Multiply</option>
+            <option value="div">Divide</option>
+        </select>
+        <button type="button" onclick="ifStatementTesting(document.getElementById('test1').value, document.getElementById('test2').value, document.getElementById('dropdown').value)">Check</button>
+        </div>
+        
+        <label for="yearNumber">Enter the year</label>
+        <input type="number" id="yearNumber">
+        <button onclick="isLeapYear(document.getElementById('yearNumber').value)">Check Leap Year</button>
+    </div>  
+    
+    <div class="py-3">
+        <button type="button" onclick="fizzBuzz()">FizzBuzz function</button>
+    </div>
+
+    <div class="py-3">
+        <button type="button" onclick="bottlesLoopFunction()">Bottles Function</button>
+    </div>
+
+    <div class="py-3">
+        <label for="fibLimit">Enter the limit</label>
+        <input type="number" id="fibLimit">
+        <button type="button" onclick="fibbonacciSeq(document.getElementById('fibLimit').value)">Fibonacci Generator</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

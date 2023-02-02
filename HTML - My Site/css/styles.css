@@ -1,0 +1,60 @@
+body
+{
+    background-color: #DAF8EA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.div_class
+{
+    background-color: #BFFAE8;
+    
+}
+
+hr
+{
+    width: 10%;
+    border-style: dotted none none;
+    border-color: #81cbda;
+    border-width: 5px;
+}
+
+h1
+{
+    color: #364f6b;
+    font-family: Trebuchet MS;
+}
+em
+{
+    color: #364f6b; 
+}
+
+
+.bgColor
+{
+    color: #364f6b;
+}
+
+
+h2
+{
+    color: #39a6a3;
+}
+
+
+strong:hover
+{
+    color: orange;
+}
+
+a
+{
+    color: #498684;
+}
+
+a:hover{
+    color: orange;
+}
