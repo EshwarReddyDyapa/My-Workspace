@@ -1,1 +1,0 @@
-This is file 3 that is created in MASTER branch
